@@ -317,6 +317,7 @@ input[type='checkbox'] {
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
+    
   transition: max-height .25s ease-in-out;
 }
 .collapsible-content1 {
@@ -491,7 +492,7 @@ input[type='checkbox'] {
         
         <!-- info 3 -->        
         <div class="carousel-item" style="
-  justify-content: center; ">  
+  justify-content: center; padding-left: 10%;padding-right: 10%;">  
             
             
             
@@ -505,10 +506,10 @@ input[type='checkbox'] {
 
               <!-- This code is refered from 
 https://alligator.io/css/collapsible/-->
-<div class="wrap-collabsible" style="width:250px;">
+<div class="wrap-collabsible" style="width:250px;" >
   <input id="collapsible" class="toggle" type="checkbox">
   <label for="collapsible" class="lbl-toggle">Strength</label>
-  <div class="collapsible-content">
+  <div class="collapsible-content" data-collapsed="false">
     <div class="content-inner">
 <nav class="playlist" data-id="1">
   <a href="b20MinuteA2.m4a">Beginner Strength 1: High Energy Stretching (19:34)</a>
@@ -551,7 +552,7 @@ https://alligator.io/css/collapsible/-->
      <br>
      <br>
      <div class="row">
-<audio class="player" data-id="1" src="" autostart="false" loop="false" controls></audio>
+<audio class="player" src="bLow1.m4a" data-id="1" src="" autostart="false" loop="false" controls></audio>
 </div>        
         <br><br><br><br><br>    
         <br><br><br><br><br>  
